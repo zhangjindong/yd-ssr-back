@@ -1,0 +1,47 @@
+/* 自定义配置全局类 */
+
+body {
+  background: #eee;
+  background-image: url('./images/furley_bg.png');
+}
+
+.course_outline {
+  font-family: 'Mydance';
+  font-size: 28px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.w128 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.spliter {
+  height: 0;
+  width: 100%;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #fff;
+  margin-top: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.box a {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: 'Mydance';
+}
+
+@font-face {
+  font-family: 'Mydance';
+  src: url(./images/sysfont.otf);
+  font-weight: normal;
+  font-style: normal;
+}

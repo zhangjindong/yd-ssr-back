@@ -1,17 +1,30 @@
 const argv = require('yargs-parser')(process.argv.slice(2));
 const merge = require('webpack-merge');
-const { resolve, join, basename } = require("path");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const {
+    resolve,
+    join,
+    basename
+} = require("path");
 const _mode = argv.mode || "development";
 let _mergeConfig = "";
-if(argv.env == "sever"){
+if (argv.env == "sever") {
     _mergeConfig = require(`./config/webpack.server.js`);
-}else{
+} else {
     _mergeConfig = require(`./config/webpack.${_mode}.js`);
 }
 
 const _modeflag = (_mode == "production" ? true : false);
-const { VueLoaderPlugin } = require('vue-loader')
-let _plugins = [new VueLoaderPlugin()];
+const {
+    VueLoaderPlugin
+} = require('vue-loader')
+let _plugins = [
+    new VueLoaderPlugin(),
+    new MiniCssExtractPlugin({
+        filename: "[name].css",
+        chunkFilename: "[id].css"
+    })
+];
 let webpackConfig = {
     module: {
         rules: [{
@@ -27,7 +40,9 @@ let webpackConfig = {
             test: /\.css$/,
             use: [
                 'vue-style-loader',
-                'css-loader'
+                MiniCssExtractPlugin.loader,
+                'css-loader',
+                'postcss-loader'
             ]
         }, {
             test: /\.(png|jpg|gif|eot|woff|woff2|ttf|svg|otf)$/,
@@ -39,7 +54,7 @@ let webpackConfig = {
             }]
         }]
     },
-    watch: !_modeflag,
+    // watch: !_modeflag,
     watchOptions: {
         ignored: /node_modules/,
         aggregateTimeout: 300,
