@@ -10,6 +10,7 @@ const app = new Koa();
 //创建IOC的容器
 const container = createContainer();
 //每一次的请求都是一个 new model
+
 app.use(scopePerRequest(container));
 //装载所有的models 并将services代码注入到controllers
 container.loadModules([__dirname + '/services/*.js'], {
@@ -32,4 +33,5 @@ app.use(serve(config.staticDir)); // 静态资源文件
 app.listen(config.port, () => {
     console.log(`ydSystem listening on ${config.port}`);
 });
+// asdf
 module.exports = app;

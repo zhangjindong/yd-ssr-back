@@ -37,12 +37,12 @@
 /******/ 		"main": 0
 /******/ 	};
 /******/
+/******/
+/******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
 /******/ 		return __webpack_require__.p + "scripts/" + ({}[chunkId]||chunkId) + ".bundle.js"
 /******/ 	}
-/******/
-/******/
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -1091,7 +1091,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! /Users/yuanzhijia/Desktop/yd-ssr/src/webapp/entry-client.js */\"./src/webapp/entry-client.js\");\n\n\n//# sourceURL=webpack:///multi_./src/webapp/entry-client.js?");
+eval("module.exports = __webpack_require__(/*! /home/dong/dong/yd-ssr-back/src/webapp/entry-client.js */\"./src/webapp/entry-client.js\");\n\n\n//# sourceURL=webpack:///multi_./src/webapp/entry-client.js?");
 
 /***/ })
 
