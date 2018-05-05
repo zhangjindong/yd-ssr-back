@@ -12,10 +12,11 @@ const data = {
     title: "一灯学堂学员学习系统",
     content: "Hello World"
 };
-@router('/video')
+@route('/video')
 export default class VideoController {
     constructor({ courceService, examService }) {
-        this.indexService = indexService;
+        this.courceService = courceService;
+        this.examService = examService;
         this.metaDictionaries = {
             "index": {
                 title: "京程一灯",
@@ -33,15 +34,17 @@ export default class VideoController {
             clientManifest
         });
     }
+    @route("/:action")
+    @GET()
     async  index(ctx, next) {
-        const examModelApp = new examModel(ctx);
+        const examModelApp = new examService(ctx);
 
         const examResult = await examModelApp.getScoreList();
 
         console.log("examResult", examResult.result)
 
 
-        const courseDigital = new courseModel(ctx)
+        const courseDigital = new courceService(ctx)
         const digital = await courseDigital.handleAliber(ctx.params.action);
 
         const actions = Number(digital.unitid)
@@ -88,8 +91,10 @@ export default class VideoController {
 
 
     }
+    @route("/player/:action")
+    @GET()
     async getData(ctx, next) {
-        const courseModelIns = new courseModel(ctx);
+        const courseModelIns = new courceService(ctx);
         const _coursedata = await courseModelIns.getCourseList(ctx.params.action);
         const courseKey = _coursedata.result.courselist
 
