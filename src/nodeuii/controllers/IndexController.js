@@ -8,6 +8,7 @@
  @route('/test')
  @route('/about')
  @route('/topics')
+ @route('/video')
  export default class helloAPI {
      constructor({ indexService }) {
          this.indexService = indexService;

@@ -9,7 +9,6 @@
                 </div>
                 <div class="box bg-1">
                     <a href="/index.html" class="button button--wapasha button-color button--round-s">首页</a>
-<!--                     <a href="javascript:alert('正在开发中')" class="button button--wapashas button--round-s ">成长之路</a> -->
                     <a href="/bookDesk" class="button button--book button--round-s">图书馆</a>
                    <a href="/student" class="button button--student button--round-s">简历填写</a>
                 </div>
