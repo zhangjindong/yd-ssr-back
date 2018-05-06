@@ -1,6 +1,6 @@
 <template>
 	<div id="video-page" class="weight-video w128">
-		<h1 class="hd videoTitle">我是标题1</h1>
+		<h1 class="hd videoTitle">{{title}}</h1>
 		<div class="bd">
 			<div id="panel">
 				<ul class="list list-unstyled" id="test">
@@ -41,6 +41,7 @@ export default{
         seenmsg: "",
         msg: "text",
         lenBool: "",
+        title:'我是标题',
         list: [
            {
             "title": "Nodejs基础API",
