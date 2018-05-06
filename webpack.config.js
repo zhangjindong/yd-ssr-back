@@ -1,5 +1,7 @@
 const argv = require('yargs-parser')(process.argv.slice(2));
 const merge = require('webpack-merge');
+const webpack = require('webpack');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const {
     resolve,
@@ -31,7 +33,7 @@ let webpackConfig = {
             test: /\.vue$/,
             loader: 'vue-loader',
             options: {
-                //extractCSS:true
+                extractCSS:true
             }
         }, {
             test: /\.js$/,
@@ -44,7 +46,7 @@ let webpackConfig = {
                 'css-loader',
                 'postcss-loader'
             ]
-        }, {
+        },{
             test: /\.(png|jpg|gif|eot|woff|woff2|ttf|svg|otf)$/,
             use: [{
                 loader: 'file-loader',

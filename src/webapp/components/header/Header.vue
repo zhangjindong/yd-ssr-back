@@ -29,13 +29,13 @@
 
 <script>
 import { mapGetters } from "vuex";
-const fetchInitialData = ({ store }) => {
-  return store.dispatch("getUserInfo");
-};
+// const fetchInitialData = ({ store }) => {
+//   return store.dispatch("getUserInfo");
+// };
 
 export default {
-  name: "UserInfo",
-  asyncData: fetchInitialData,
+  // name: "UserInfo",
+  // asyncData: fetchInitialData,
   computed: {
     ...mapGetters({
       userInfo: "getUserInfo"
@@ -51,12 +51,12 @@ export default {
   },
   mounted() {
     this.init();
-    fetchInitialData({ store: this.$store });
+    // fetchInitialData({ store: this.$store });
   }
 };
 </script>
 
-<style>
+<style scoped>
 /* 自定义配置全局类 */
 @import "./styles/headerbase.css";
 

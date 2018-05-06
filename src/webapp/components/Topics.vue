@@ -1,6 +1,6 @@
 <template>
   <div class="topics">  
-  	<div v-for="topic in topics">
+  	<div :key="topic.title" v-for="topic in topics">
   		<p>{{topic.title}}</p>
   	</div>
   </div>
