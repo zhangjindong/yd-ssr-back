@@ -9,8 +9,10 @@
  @route('/about')
  @route('/topics')
  @route('/video')
+ @route('/video/:action')
  export default class helloAPI {
      constructor({ indexService }) {
+         
          this.indexService = indexService;
          this.metaDictionaries = {
              "index": {
@@ -46,6 +48,7 @@
         $("head").append(this.metaDictionaries.index.meta);
 
          const context = { url: ctx.url };
+         
          const ssrrender = this.createRenderer(serverBundle, $.html(), clientManifest);
 
          function createSsrStreamPromise() {

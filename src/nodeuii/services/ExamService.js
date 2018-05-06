@@ -13,9 +13,9 @@ export default class ExamService {
         const safeRequestIns = new safeRequest(this.ctx, config.getTgetLastNotice, {});
         return safeRequestIns.request();
     }
-    getScoreList() {
+    getScoreList(ctx) {
         const data = {
-            uid: this.ctx.session.userInfo.uid
+            uid: ctx.session.userInfo.uid
         };
         const safeRequestIns = new safeRequest(this.ctx, config.getStudentScoreList, data);
         return safeRequestIns.request();

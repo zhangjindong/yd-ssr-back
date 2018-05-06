@@ -5,28 +5,33 @@ import HelloWorld from '../components/HelloWorld';
 import IndexVue from '../views/index/Index.vue';
 import Test from '../components/test/Test.vue';
 import Topics from '../components/Topics';
-import Video from '../views/video/index.vue';
+import Video from '../views/video/Index.vue';
 Vue.use(Router);
 
 export function createRouter() {
     const router = new Router({
-        mode:'history',
+        mode: 'history',
         routes: [{
             path: '/',
             component: IndexVue
         }, {
             path: '/test',
             component: Test
-        },{
+        }, {
             path: '/about',
             component: () => import('../components/About.vue')
-        },{
-           path: '/topics',
-           component:Topics
-        },{
-            path: '/video',
-            component:Video
-         }]
+        }, {
+            path: '/topics',
+            component: Topics
+        }, {
+            path: '/video/:action',
+            component: Video
+        }
+        ]
     })
+    console.log("1111111");
+    
+    console.log(router.routes);
+    
     return router;
 }

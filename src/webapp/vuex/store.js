@@ -5,7 +5,8 @@ import * as getters from "./getters";
 //定义初始化的state
 const defaultSatate = {
     count: 0,
-    topics: []
+    topics: [],
+    result: { list: {}, title: "" }
 }
 
 //判断当前的开发环境
@@ -26,6 +27,12 @@ const mutations = {
     },
     USER_INFO: (state, userInfo) => {
         state.userInfo = userInfo;
+    },
+    GET_VIDEO:(state,datas)=>{
+        state.result = {
+            list: datas.coursedata.courselist,
+            title: datas.title,
+        }
     }
 }
 

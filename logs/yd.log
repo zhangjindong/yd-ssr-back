@@ -1,763 +1,134 @@
-[2018-05-06T11:05:58.543] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-[2018-05-06T11:07:59.415] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:08:48.340] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:09:09.229] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:10:29.897] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:12:24.355] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:14:58.201] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:15:07.459] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:16:47.581] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:18:35.365] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:48:30)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:19:16.132] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:25:24.152] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:25:26.031] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:28:55.726] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:34:13.097] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:35:24.236] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:36:35.892] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:39:10.188] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:48:44)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:43:23.084] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
-
-Resolution path: sessions
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:47:22.899] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
-
-Resolution path: sessions
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:48:51.554] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
-
-Resolution path: sessions
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:140:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:50:02.790] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
-
-Resolution path: sessions
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
-    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:140:54)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
-    at <anonymous>
-[2018-05-06T11:50:18.942] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: courseService -> session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:26:25)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-[2018-05-06T12:02:51.763] [ERROR] cheese - TypeError: Cannot read property 'session' of undefined
-    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:29:25)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-[2018-05-06T12:34:50.668] [ERROR] cheese - ReferenceError: ctx is not defined
-    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:28:21)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-[2018-05-06T12:37:34.709] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
-
-Resolution path: courseService -> session
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:27:25)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
-    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
-    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
-    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
-    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
-    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
-    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
-    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
-    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
-[2018-05-06T13:25:45.783] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+[2018-05-06T16:22:37.170] [ERROR] cheese - { Error: connect ECONNREFUSED 127.0.0.1:8085
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 8085,
+  config: 
+   { adapter: [Function: httpAdapter],
+     transformRequest: { '0': [Function: transformRequest] },
+     transformResponse: { '0': [Function: transformResponse] },
+     timeout: 0,
+     xsrfCookieName: 'XSRF-TOKEN',
+     xsrfHeaderName: 'X-XSRF-TOKEN',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     headers: 
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.18.0' },
+     baseURL: 'http://dev.yidengxuetang.com:8081/',
+     method: 'get',
+     url: 'http://dev.yidengxuetang.com:8081/users/getUserInfo',
+     data: undefined },
+  request: 
+   Writable {
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: true,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     domain: null,
+     _events: 
+      { response: [Function: handleResponse],
+        error: [Function: handleRequestError] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     _options: 
+      { protocol: 'http:',
+        maxRedirects: 21,
+        maxBodyLength: 10485760,
+        path: '/users/login',
+        method: 'GET',
+        headers: [Object],
+        agent: undefined,
+        auth: null,
+        hostname: 'dev.yidengxuetang.com',
+        port: '8085',
+        nativeProtocols: [Object],
+        pathname: '/users/login',
+        slashes: true,
+        host: 'dev.yidengxuetang.com:8085',
+        hash: null,
+        search: null,
+        query: null,
+        href: 'http://dev.yidengxuetang.com:8085/users/login' },
+     _redirectCount: 1,
+     _requestBodyLength: 0,
+     _requestBodyBuffers: [],
+     _onNativeResponse: [Function],
+     _currentRequest: 
+      ClientRequest {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        upgrading: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Object],
+        connection: [Object],
+        _header: 'GET /users/login HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.18.0\r\nHost: dev.yidengxuetang.com:8085\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Object],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        path: '/users/login',
+        _ended: false,
+        res: null,
+        aborted: undefined,
+        timeoutCb: null,
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Circular],
+        [Symbol(outHeadersKey)]: [Object] },
+     _currentUrl: 'http://dev.yidengxuetang.com:8085/users/login',
+     _isRedirect: true },
+  response: undefined }
+[2018-05-06T16:25:12.051] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
 Resolution path: session
     at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
@@ -786,3 +157,234 @@ Resolution path: session
     at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
     at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
     at <anonymous>
+[2018-05-06T16:26:38.384] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at ExamService.getScoreList (/home/dong/dong/yd-ssr-back/dist/services/ExamService.js:33:27)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:91:47)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T16:27:32.708] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at ExamService.getScoreList (/home/dong/dong/yd-ssr-back/dist/services/ExamService.js:33:27)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:91:47)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T16:27:42.294] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at ExamService.getScoreList (/home/dong/dong/yd-ssr-back/dist/services/ExamService.js:33:27)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:91:47)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T16:30:32.420] [ERROR] cheese - { Error: Cannot find module '../assets/vue-ssr-server-bundle.json'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at helloAPI.getIndex (/home/dong/dong/yd-ssr-back/dist/controllers/IndexController.js:75:30)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous> code: 'MODULE_NOT_FOUND' }
+[2018-05-06T16:35:33.735] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at ExamService.getScoreList (/home/dong/dong/yd-ssr-back/dist/services/ExamService.js:33:27)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:91:47)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T17:28:33.966] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at ExamService.getScoreList (/home/dong/dong/yd-ssr-back/dist/services/ExamService.js:33:27)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:91:47)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T17:51:47.963] [ERROR] cheese - TypeError: this.courseService is not a function
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:93:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T17:53:44.038] [ERROR] cheese - TypeError: this.courseService is not a function
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:93:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T17:55:08.036] [ERROR] cheese - TypeError: Cannot read property 'match' of undefined
+    at CourseService.handleAliber (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:37:33)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:53:29)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:100:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T17:57:43.639] [ERROR] cheese - TypeError: Cannot read property 'match' of undefined
+    at CourseService.handleAliber (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:35:33)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:51:29)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:100:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T17:59:48.526] [ERROR] cheese - TypeError: Cannot read property 'match' of undefined
+    at CourseService.handleAliber (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:35:33)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:51:29)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:100:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:01:46.438] [ERROR] cheese - TypeError: Cannot read property 'match' of undefined
+    at CourseService.handleAliber (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:35:33)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:51:29)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:103:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:02:15.839] [ERROR] cheese - TypeError: Cannot read property 'match' of undefined
+    at CourseService.handleAliber (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:35:33)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:51:29)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:103:54)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:04:08.147] [ERROR] cheese - TypeError: ctx.render is not a function
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:118:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:50:23.761] [ERROR] cheese - TypeError: Cannot read property 'length' of undefined
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:106:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:50:56.237] [ERROR] cheese - TypeError: ctx.render is not a function
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:118:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:54:09.707] [ERROR] cheese - TypeError: ctx.render is not a function
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:118:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T18:56:14.223] [ERROR] cheese - TypeError: ctx.render is not a function
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:118:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

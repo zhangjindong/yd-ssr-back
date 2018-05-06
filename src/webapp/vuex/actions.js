@@ -20,4 +20,12 @@ export const getUserInfo = ({commit,state})=>{
 	})
 }
 
+export const getVideo = ({ commit, targetUrl}=>{
+	return request.get('videoplayer/' + targetUrl).then((response) => {
+		console.log("response", response.data);
+		if (response.statusText == 'OK') {
+			commit("GET_VIDEO", response.data);
+		}
+	})
+});
 

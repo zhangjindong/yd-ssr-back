@@ -25,8 +25,8 @@ export default class VideoController {
             }
         }
     }
-    @route('/video')
-    @GET()
+    // @route('/video')
+    // @GET()
     getUser(ctx, next) {
 
         const result = data;
@@ -42,26 +42,18 @@ export default class VideoController {
             clientManifest
         });
     }
-    @route("/video/:action")
-    @GET()
+    // @route("/video/:action")
+    // @GET()
     async index(ctx, next) {
 
-        const examModelApp = this.examService;
-
-        const examResult = await examModelApp.getScoreList();
-
-        console.log("examResult", examResult.result)
+        const examResult = await this.examService.getScoreList(ctx);
 
 
-        const courseDigital = this.courseService(ctx)
-        const digital = await courseDigital.handleAliber(ctx.params.action);
+        const digital = await this.courseService.handleAliber(ctx.params.action);
 
         const actions = Number(digital.unitid)
 
-
-        // console.log("对比2", examResult.result)
-
-        const _coursedata = await courseDigital.getCourseList(ctx.params.action);
+        const _coursedata = await this.courseService.getCourseList(ctx,ctx.params.action);
         const courseKey = _coursedata.result.courselist
 
 
@@ -101,13 +93,10 @@ export default class VideoController {
     @route("/videoplayer/:action")
     @GET()
     async getData(ctx, next) {
-        
+
         const _coursedata = await this.courseService.getCourseList(ctx, ctx.params.action);
         const courseKey = _coursedata.result.courselist
-        console.log("---------");
-
-        console.log(_coursedata);
-
+        
         for (let i = 0; i < courseKey.length; i++) {
             courseKey[i].key = i
             courseKey[i].keys = data[i]

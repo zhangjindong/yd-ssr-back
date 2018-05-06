@@ -56,7 +56,7 @@ let webpackConfig = {
             }]
         }]
     },
-    // watch: !_modeflag,
+    watch: !_modeflag,
     watchOptions: {
         ignored: /node_modules/,
         aggregateTimeout: 300,

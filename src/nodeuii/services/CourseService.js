@@ -8,11 +8,7 @@ import safeRequest from '../libs/safeRequest';
 export
 default class CourseService {
     constructor(ctx) {
-        console.log("=-=-=-=-=-s");
-        
         console.dir(arguments);
-        console.log("=-=-=-=-=-s");
-        
         this.ctx = ctx;
     }
     handleAliber(digital) {
@@ -20,6 +16,8 @@ default class CourseService {
             unitid: undefined,
             typeid: undefined
         }
+        console.log(digital,"---------------====");
+        
         const _online = digital.match(/online$/);
         const _offline = digital.match(/offline$/);
 
