@@ -29,6 +29,7 @@ default class loginValidate extends Store{
             }
         };
 
+        
         if (_yid) {
             const res = await this.ctx.redis.get('shiro_redis_session:' + _yid + '');
             const _res = JSON.parse(res);
