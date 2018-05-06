@@ -6,9 +6,9 @@ const replace = require("rollup-plugin-replace");
 const eslint = require('gulp-eslint');
 const gulpSequence = require('gulp-sequence')
 gulp.task('builddev', () => {
-    return watch('./src/nodeuii/**/*.js', {
-        ignoreInitial: false
-    }, () => {
+    // return watch('./src/nodeuii/**/*.js', {
+    //     ignoreInitial: false
+    // }, () => {
         gulp.src('./src/nodeuii/**/*.js')
             .pipe(babel({
                 //不让外部的.babelrc印象内部
@@ -19,7 +19,7 @@ gulp.task('builddev', () => {
                 ]
             }))
             .pipe(gulp.dest('dist'))
-    })
+    // })
 });
 gulp.task('buildprod', () => {
     gulp.src('./src/nodeuii/**/*.js')
