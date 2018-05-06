@@ -22,11 +22,9 @@ const mutations = {
     INCREMENT: state => ++state.count,
     DECREMENT: state => --state.count,
     TOPICS_LIST: (state, topics) => {
-        console.log("收到的值为",topics);
         state.topics = topics;
     },
     USER_INFO: (state, userInfo) => {
-        console.log("收到的值为",userInfo);
         state.userInfo = userInfo;
     }
 }
