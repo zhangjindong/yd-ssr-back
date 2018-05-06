@@ -26,7 +26,11 @@ const mutations = {
     },
     USER_INFO: (state, userInfo) => {
         state.userInfo = userInfo;
+    },
+    VIDEO_TITLE: (state, videoTitle) => {
+        state.videoTitle = videoTitle;
     }
+    
 }
 
 export function createStore() {
