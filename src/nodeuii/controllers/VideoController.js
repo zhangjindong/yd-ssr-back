@@ -12,10 +12,14 @@ const data = {
     title: "一灯学堂学员学习系统",
     content: "Hello World"
 };
-@route('/video')
 export default class VideoController {
-    constructor({ courceService, examService }) {
-        this.courceService = courceService;
+
+    constructor({ courseService, examService }) {
+        console.log("111");
+
+        console.log(courseService);
+
+        this.courseService = courseService;
         this.examService = examService;
         this.metaDictionaries = {
             "index": {
@@ -23,6 +27,14 @@ export default class VideoController {
                 meta: '<meta name="keywords" content=京程一灯>'
             }
         }
+    }
+    @route('/video')
+    @GET()
+    getUser(ctx, next) {
+        console.log(this.courseService);
+
+        const result = data;
+        ctx.body = { data: result };
     }
     createRenderer(serverbundle, template, clientManifest) {
         return createBundleRenderer(serverbundle, {
@@ -34,17 +46,18 @@ export default class VideoController {
             clientManifest
         });
     }
-    @route("/:action")
+    @route("/video/:action")
     @GET()
-    async  index(ctx, next) {
-        const examModelApp = new examService(ctx);
+    async index(ctx, next) {
+
+        const examModelApp = this.examService;
 
         const examResult = await examModelApp.getScoreList();
 
         console.log("examResult", examResult.result)
 
 
-        const courseDigital = new courceService(ctx)
+        const courseDigital = this.courseService(ctx)
         const digital = await courseDigital.handleAliber(ctx.params.action);
 
         const actions = Number(digital.unitid)
@@ -91,12 +104,14 @@ export default class VideoController {
 
 
     }
-    @route("/player/:action")
+    @route("/videoplayer/:action")
     @GET()
     async getData(ctx, next) {
-        const courseModelIns = new courceService(ctx);
-        const _coursedata = await courseModelIns.getCourseList(ctx.params.action);
+        const _coursedata = await this.courseService.getCourseList(ctx.params.action);
         const courseKey = _coursedata.result.courselist
+        console.log("---------");
+
+        console.log(_coursedata);
 
         for (let i = 0; i < courseKey.length; i++) {
             courseKey[i].key = i
@@ -133,4 +148,4 @@ export default class VideoController {
         // await createSsrStreamPromise(context);
     };
 }
-export default VideoController;
+// export default VideoController;
