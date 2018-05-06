@@ -15,7 +15,6 @@ export default class UserController {
     @route('/getUserInfo')
      @GET()
      async getUserInfo(ctx, next) {
-
         ctx.body = ctx.session.userInfo.user_info;
     }
 }

@@ -29,9 +29,6 @@ export function createRouter() {
         }
         ]
     })
-    console.log("1111111");
-    
-    console.log(router.routes);
     
     return router;
 }

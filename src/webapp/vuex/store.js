@@ -28,12 +28,10 @@ const mutations = {
     USER_INFO: (state, userInfo) => {
         state.userInfo = userInfo;
     },
-    GET_VIDEO:(state,datas)=>{
-        state.result = {
-            list: datas.coursedata.courselist,
-            title: datas.title,
-        }
+    VIDEO_TITLE: (state, videoTitle) => {
+        state.videoTitle = videoTitle;
     }
+    
 }
 
 export function createStore() {

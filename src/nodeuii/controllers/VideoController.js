@@ -1,12 +1,11 @@
-
-import { route, GET, POST, before } from 'awilix-koa';
-import { createBundleRenderer } from 'vue-server-renderer';
+import { route, GET, POST, before } from "awilix-koa";
+import { createBundleRenderer } from "vue-server-renderer";
 
 const fs = require("fs");
 const path = require("path");
-const LRU = require('lru-cache');
+const LRU = require("lru-cache");
 
-import config from '../config/config';
+import config from "../config/config";
 
 const data = {
     title: "一灯学堂学员学习系统",
@@ -53,7 +52,7 @@ export default class VideoController {
 
         const actions = Number(digital.unitid)
 
-        const _coursedata = await this.courseService.getCourseList(ctx,ctx.params.action);
+        const _coursedata = await this.courseService.getCourseList(ctx, ctx.params.action);
         const courseKey = _coursedata.result.courselist
 
 
@@ -62,6 +61,7 @@ export default class VideoController {
             courseKey[i].keys = data[i]
 
         }
+
         if (actions >= 0) {
             var act
             if (actions > 0) {
@@ -76,16 +76,16 @@ export default class VideoController {
                     });
                 }
             } else if (examResult.result.scores[act] != undefined) {
-                var score = examResult.result.scores[act].score
+                var score = examResult.result.scores[act].score;
                 if (score >= 80) {
                     if (_coursedata.result.title) {
-                        ctx.body = await ctx.render('video/pages/video.html', {
+                        ctx.body = await ctx.render("video/pages/video.html", {
                             title: "一灯学堂学员学习系统 - 预习课",
-                            userinfo: ctx.session.userInfo.user_info,
+                            userinfo: ctx.session.userInfo.user_info
                         });
                     }
                 } else {
-                    ctx.body = await ctx.render('error/pages/404.html', {});
+                    ctx.body = await ctx.render("error/pages/404.html", {});
                 }
             }
         }
@@ -96,7 +96,7 @@ export default class VideoController {
 
         const _coursedata = await this.courseService.getCourseList(ctx, ctx.params.action);
         const courseKey = _coursedata.result.courselist
-        
+
         for (let i = 0; i < courseKey.length; i++) {
             courseKey[i].key = i
             courseKey[i].keys = data[i]
@@ -111,6 +111,8 @@ export default class VideoController {
                 }
             };
         }
+
+
         // const rootPath = path.join(__dirname, '..');
         // const serverBundle = require('../assets/vue-ssr-server-bundle.json');
         // const clientManifest = require('../assets/vue-ssr-client-manifest.json');
@@ -130,6 +132,6 @@ export default class VideoController {
         //     });
         // }
         // await createSsrStreamPromise(context);
-    };
+    }
 }
 // export default VideoController;

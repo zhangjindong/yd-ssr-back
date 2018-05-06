@@ -6,10 +6,11 @@ import { mapGetters, mapState } from "vuex";
 export default {
     // name: "UserInfo",
     // asyncData: fetchInitialData,
-    computed: mapState({
-        list: state => state.database.result.list,
-        title: state => state.database.result.title,
-    }),
+    computed: {
+        ...mapGetters({
+            list: "getVideoList"
+        })
+    },
     methods: {
         init() {
             let me = this;
