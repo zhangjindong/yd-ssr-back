@@ -15,9 +15,6 @@ const data = {
 export default class VideoController {
 
     constructor({ courseService, examService }) {
-        console.log("111");
-
-        console.log(courseService);
 
         this.courseService = courseService;
         this.examService = examService;
@@ -31,7 +28,6 @@ export default class VideoController {
     @route('/video')
     @GET()
     getUser(ctx, next) {
-        console.log(this.courseService);
 
         const result = data;
         ctx.body = { data: result };
@@ -107,7 +103,8 @@ export default class VideoController {
     @route("/videoplayer/:action")
     @GET()
     async getData(ctx, next) {
-        const _coursedata = await this.courseService.getCourseList(ctx.params.action);
+        
+        const _coursedata = await this.courseService.getCourseList(ctx, ctx.params.action);
         const courseKey = _coursedata.result.courselist
         console.log("---------");
 

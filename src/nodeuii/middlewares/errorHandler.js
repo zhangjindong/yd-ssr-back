@@ -6,6 +6,8 @@ const errorHandler = {
             }catch(error){
                 //error logs pm2 logs
                 logger.error(error);
+                console.error(error);
+                
                 ctx.status = error.status || 500;
                 ctx.body = 500;
             }

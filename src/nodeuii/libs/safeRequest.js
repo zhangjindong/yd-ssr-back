@@ -30,7 +30,7 @@ default class SafeRequest {
             (async() => {
                 await rpA(rpOptions).then(function(result) {
                     const resp = JSON.parse(result);
-                    //console.log('纯输出结果', resp);
+                    console.log('纯输出结果', resp);
                     if (resp) {
                         if (resp.error_code == 0) {
                             resolve({

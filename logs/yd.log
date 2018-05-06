@@ -1,709 +1,788 @@
-[2018-05-02T01:37:56.826] [ERROR] cheese - Error: Module build failed: SyntaxError: 'import' and 'export' may only appear at the top level (10:2)
+[2018-05-06T11:05:58.543] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
-[0m [90m  8 | [39m[36mexport[39m [36mdefault[39m {
- [90m  9 | [39m	mounted() {
-[31m[1m>[22m[39m[90m 10 | [39m		[36mimport[39m([32m"./Test.js"[39m)[33m.[39mthen(res [33m=>[39m {
- [90m    | [39m		[31m[1m^[22m[39m
- [90m 11 | [39m			res[33m.[39m[36mdefault[39m()[33m;[39m
- [90m 12 | [39m		})[33m;[39m
- [90m 13 | [39m	}[0m
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-05-06T11:07:59.415] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
-    at eval (webpack:///./src/webapp/components/test/Test.vue?./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options:1:7)
-    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:447:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/components/test/Test.vue?:2:186)
-    at Object../src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:942:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/components/test/Test.vue?:3:91)
-    at Object../src/webapp/components/test/Test.vue (scripts/main.bundle.js:930:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/router/index.js?:20:13)
-[2018-05-02T01:37:58.360] [ERROR] cheese - Error: Module build failed: SyntaxError: 'import' and 'export' may only appear at the top level (10:2)
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:08:48.340] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
-[0m [90m  8 | [39m[36mexport[39m [36mdefault[39m {
- [90m  9 | [39m	mounted() {
-[31m[1m>[22m[39m[90m 10 | [39m		[36mimport[39m([32m"./Test.js"[39m)[33m.[39mthen(res [33m=>[39m {
- [90m    | [39m		[31m[1m^[22m[39m
- [90m 11 | [39m			res[33m.[39m[36mdefault[39m()[33m;[39m
- [90m 12 | [39m		})[33m;[39m
- [90m 13 | [39m	}[0m
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:09:09.229] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
-    at eval (webpack:///./src/webapp/components/test/Test.vue?./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options:1:7)
-    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:447:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/components/test/Test.vue?:2:186)
-    at Object../src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:942:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/components/test/Test.vue?:3:91)
-    at Object../src/webapp/components/test/Test.vue (scripts/main.bundle.js:930:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/router/index.js?:20:13)
-[2018-05-02T01:38:01.373] [ERROR] cheese - Error: Module build failed: SyntaxError: 'import' and 'export' may only appear at the top level (10:2)
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:10:29.897] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
-[0m [90m  8 | [39m[36mexport[39m [36mdefault[39m {
- [90m  9 | [39m	mounted() {
-[31m[1m>[22m[39m[90m 10 | [39m		[36mimport[39m([32m"./Test.js"[39m)[33m.[39mthen(res [33m=>[39m {
- [90m    | [39m		[31m[1m^[22m[39m
- [90m 11 | [39m			res[33m.[39m[36mdefault[39m()[33m;[39m
- [90m 12 | [39m		})[33m;[39m
- [90m 13 | [39m	}[0m
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:143:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:12:24.355] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
 
-    at eval (webpack:///./src/webapp/components/test/Test.vue?./node_modules/babel-loader/lib!./node_modules/vue-loader/lib??vue-loader-options:1:7)
-    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:447:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/components/test/Test.vue?:2:186)
-    at Object../src/webapp/components/test/Test.vue?vue&type=script&lang=js (scripts/main.bundle.js:942:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/components/test/Test.vue?:3:91)
-    at Object../src/webapp/components/test/Test.vue (scripts/main.bundle.js:930:1)
-    at __webpack_require__ (scripts/main.bundle.js:24:30)
-    at eval (webpack:///./src/webapp/router/index.js?:20:13)
-[2018-05-02T02:17:39.943] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/assets/index.html'
-    at Object.fs.openSync (fs.js:545:3)
-    at Object.fs.readFileSync (fs.js:451:33)
-    at helloAPI.getIndex (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:65:29)
-    at memberInvoker (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/lib/router.js:351:31)
-  errno: -2,
-  syscall: 'open',
-  code: 'ENOENT',
-  path: '/assets/index.html' }
-[2018-05-02T02:19:43.461] [ERROR] cheese - TypeError: ssrStream.pipe is not a function
-    at Promise (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:83:27)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:76:20)
-    at helloAPI.getIndex (/Users/yuanzhijia/Desktop/yd-ssr/dist/controllers/IndexController.js:86:15)
-    at memberInvoker (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/yuanzhijia/Desktop/yd-ssr/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-[2018-05-05T11:19:44.732] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/assets/index.html'
-    at Object.fs.openSync (fs.js:646:18)
-    at Object.fs.readFileSync (fs.js:551:33)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:71:29)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/assets/index.html' }
-[2018-05-05T13:28:52.886] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/assets/index.html'
-    at Object.fs.openSync (fs.js:646:18)
-    at Object.fs.readFileSync (fs.js:551:33)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:71:29)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/assets/index.html' }
-[2018-05-05T13:29:03.807] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/assets/index.html'
-    at Object.fs.openSync (fs.js:646:18)
-    at Object.fs.readFileSync (fs.js:551:33)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:71:29)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)
-  errno: -2,
-  code: 'ENOENT',
-  syscall: 'open',
-  path: '/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/assets/index.html' }
-[2018-05-05T17:05:18.547] [ERROR] cheese - ReferenceError: metaDictionaries is not defined
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:87:25)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:351:31)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@4.0.0@koa-compose/index.js:42:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@4.0.0@koa-compose/index.js:34:12
-[2018-05-05T17:27:29.590] [ERROR] cheese - TypeError: Cannot read property 'userInfo' of undefined
-    at Promise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:99:41)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:92:20)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:108:15)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-[2018-05-05T17:27:52.504] [ERROR] cheese - TypeError: Cannot read property 'userInfo' of undefined
-    at Promise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:99:41)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:92:20)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:108:15)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-[2018-05-05T17:28:03.043] [ERROR] cheese - TypeError: Cannot read property 'userInfo' of undefined
-    at Promise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:99:41)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:92:20)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:108:15)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-[2018-05-05T17:29:14.904] [ERROR] cheese - TypeError: Cannot read property 'userInfo' of undefined
-    at Promise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:99:41)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:92:20)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:108:15)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-[2018-05-05T17:29:21.982] [ERROR] cheese - TypeError: Cannot read property 'userInfo' of undefined
-    at Promise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:99:41)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:92:20)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:108:15)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-[2018-05-05T17:29:31.228] [ERROR] cheese - TypeError: Cannot read property 'userInfo' of undefined
-    at Promise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:99:41)
-    at new Promise (<anonymous>)
-    at createSsrStreamPromise (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:92:20)
-    at helloAPI.getIndex (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/dist/controllers/IndexController.js:108:15)
-    at memberInvoker (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_awilix-koa@2.1.1@awilix-koa/lib/invokers.js:80:45)
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-router@7.4.0@koa-router/lib/router.js:346:16
-    at dispatch (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
-    at /Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
-[2018-05-05T18:55:42.317] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T18:58:19.045] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T18:59:04.068] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:00:11.751] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:01:19.932] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:05:42.150] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:07:32.719] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:09:33.739] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:10:24.439] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:44:03.406] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:47:53.728] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:49:55.206] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:53:30.766] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T19:55:52.288] [ERROR] cheese - { Error: connect ECONNREFUSED 127.0.0.1:80
-    at Object._errnoException (util.js:1022:11)
-    at _exceptionWithHostPort (util.js:1044:20)
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
-  code: 'ECONNREFUSED',
-  errno: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 80,
-  config: 
-   { adapter: [Function: httpAdapter],
-     transformRequest: { '0': [Function: transformRequest] },
-     transformResponse: { '0': [Function: transformResponse] },
-     timeout: 0,
-     xsrfCookieName: 'XSRF-TOKEN',
-     xsrfHeaderName: 'X-XSRF-TOKEN',
-     maxContentLength: -1,
-     validateStatus: [Function: validateStatus],
-     headers: 
-      { Accept: 'application/json, text/plain, */*',
-        'User-Agent': 'axios/0.18.0' },
-     baseURL: 'http://dev.yidengxuetang.com/:8081/',
-     method: 'get',
-     url: 'http://dev.yidengxuetang.com/:8081/users/user/getUserInfo',
-     data: undefined },
-  request: 
-   Writable {
-     _writableState: 
-      WritableState {
-        objectMode: false,
-        highWaterMark: 16384,
-        finalCalled: false,
-        needDrain: false,
-        ending: false,
-        ended: false,
-        finished: false,
-        destroyed: false,
-        decodeStrings: true,
-        defaultEncoding: 'utf8',
-        length: 0,
-        writing: false,
-        corked: 0,
-        sync: true,
-        bufferProcessing: false,
-        onwrite: [Function: bound onwrite],
-        writecb: null,
-        writelen: 0,
-        bufferedRequest: null,
-        lastBufferedRequest: null,
-        pendingcb: 0,
-        prefinished: false,
-        errorEmitted: false,
-        bufferedRequestCount: 0,
-        corkedRequestsFree: [Object] },
-     writable: true,
-     domain: null,
-     _events: 
-      { response: [Function: handleResponse],
-        error: [Function: handleRequestError] },
-     _eventsCount: 2,
-     _maxListeners: undefined,
-     _options: 
-      { protocol: 'http:',
-        maxRedirects: 21,
-        maxBodyLength: 10485760,
-        path: '/:8081/users/user/getUserInfo',
-        method: 'get',
-        headers: [Object],
-        agent: undefined,
-        auth: undefined,
-        hostname: 'dev.yidengxuetang.com',
-        port: null,
-        nativeProtocols: [Object],
-        pathname: '/:8081/users/user/getUserInfo' },
-     _redirectCount: 0,
-     _requestBodyLength: 0,
-     _requestBodyBuffers: [],
-     _onNativeResponse: [Function],
-     _currentRequest: 
-      ClientRequest {
-        domain: null,
-        _events: [Object],
-        _eventsCount: 6,
-        _maxListeners: undefined,
-        output: [],
-        outputEncodings: [],
-        outputCallbacks: [],
-        outputSize: 0,
-        writable: true,
-        _last: true,
-        upgrading: false,
-        chunkedEncoding: false,
-        shouldKeepAlive: false,
-        useChunkedEncodingByDefault: false,
-        sendDate: false,
-        _removedConnection: false,
-        _removedContLen: false,
-        _removedTE: false,
-        _contentLength: 0,
-        _hasBody: true,
-        _trailer: '',
-        finished: true,
-        _headerSent: true,
-        socket: [Object],
-        connection: [Object],
-        _header: 'GET /:8081/users/user/getUserInfo HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.18.0\r\nHost: dev.yidengxuetang.com\r\nConnection: close\r\n\r\n',
-        _onPendingData: [Function: noopPendingOutput],
-        agent: [Object],
-        socketPath: undefined,
-        timeout: undefined,
-        method: 'GET',
-        path: '/:8081/users/user/getUserInfo',
-        _ended: false,
-        res: null,
-        aborted: undefined,
-        timeoutCb: null,
-        upgradeOrConnect: false,
-        parser: null,
-        maxHeadersCount: null,
-        _redirectable: [Circular],
-        [Symbol(outHeadersKey)]: [Object] },
-     _currentUrl: 'http://dev.yidengxuetang.com/:8081/users/user/getUserInfo' },
-  response: undefined }
-[2018-05-05T19:57:36.792] [ERROR] cheese - { Error: connect ECONNREFUSED 127.0.0.1:80
-    at Object._errnoException (util.js:1022:11)
-    at _exceptionWithHostPort (util.js:1044:20)
-    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
-  code: 'ECONNREFUSED',
-  errno: 'ECONNREFUSED',
-  syscall: 'connect',
-  address: '127.0.0.1',
-  port: 80,
-  config: 
-   { adapter: [Function: httpAdapter],
-     transformRequest: { '0': [Function: transformRequest] },
-     transformResponse: { '0': [Function: transformResponse] },
-     timeout: 0,
-     xsrfCookieName: 'XSRF-TOKEN',
-     xsrfHeaderName: 'X-XSRF-TOKEN',
-     maxContentLength: -1,
-     validateStatus: [Function: validateStatus],
-     headers: 
-      { Accept: 'application/json, text/plain, */*',
-        'User-Agent': 'axios/0.18.0' },
-     baseURL: 'http://dev.yidengxuetang.com/:8081/',
-     method: 'get',
-     url: 'http://dev.yidengxuetang.com/:8081/users/user/getUserInfo',
-     data: undefined },
-  request: 
-   Writable {
-     _writableState: 
-      WritableState {
-        objectMode: false,
-        highWaterMark: 16384,
-        finalCalled: false,
-        needDrain: false,
-        ending: false,
-        ended: false,
-        finished: false,
-        destroyed: false,
-        decodeStrings: true,
-        defaultEncoding: 'utf8',
-        length: 0,
-        writing: false,
-        corked: 0,
-        sync: true,
-        bufferProcessing: false,
-        onwrite: [Function: bound onwrite],
-        writecb: null,
-        writelen: 0,
-        bufferedRequest: null,
-        lastBufferedRequest: null,
-        pendingcb: 0,
-        prefinished: false,
-        errorEmitted: false,
-        bufferedRequestCount: 0,
-        corkedRequestsFree: [Object] },
-     writable: true,
-     domain: null,
-     _events: 
-      { response: [Function: handleResponse],
-        error: [Function: handleRequestError] },
-     _eventsCount: 2,
-     _maxListeners: undefined,
-     _options: 
-      { protocol: 'http:',
-        maxRedirects: 21,
-        maxBodyLength: 10485760,
-        path: '/:8081/users/user/getUserInfo',
-        method: 'get',
-        headers: [Object],
-        agent: undefined,
-        auth: undefined,
-        hostname: 'dev.yidengxuetang.com',
-        port: null,
-        nativeProtocols: [Object],
-        pathname: '/:8081/users/user/getUserInfo' },
-     _redirectCount: 0,
-     _requestBodyLength: 0,
-     _requestBodyBuffers: [],
-     _onNativeResponse: [Function],
-     _currentRequest: 
-      ClientRequest {
-        domain: null,
-        _events: [Object],
-        _eventsCount: 6,
-        _maxListeners: undefined,
-        output: [],
-        outputEncodings: [],
-        outputCallbacks: [],
-        outputSize: 0,
-        writable: true,
-        _last: true,
-        upgrading: false,
-        chunkedEncoding: false,
-        shouldKeepAlive: false,
-        useChunkedEncodingByDefault: false,
-        sendDate: false,
-        _removedConnection: false,
-        _removedContLen: false,
-        _removedTE: false,
-        _contentLength: 0,
-        _hasBody: true,
-        _trailer: '',
-        finished: true,
-        _headerSent: true,
-        socket: [Object],
-        connection: [Object],
-        _header: 'GET /:8081/users/user/getUserInfo HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.18.0\r\nHost: dev.yidengxuetang.com\r\nConnection: close\r\n\r\n',
-        _onPendingData: [Function: noopPendingOutput],
-        agent: [Object],
-        socketPath: undefined,
-        timeout: undefined,
-        method: 'GET',
-        path: '/:8081/users/user/getUserInfo',
-        _ended: false,
-        res: null,
-        aborted: undefined,
-        timeoutCb: null,
-        upgradeOrConnect: false,
-        parser: null,
-        maxHeadersCount: null,
-        _redirectable: [Circular],
-        [Symbol(outHeadersKey)]: [Object] },
-     _currentUrl: 'http://dev.yidengxuetang.com/:8081/users/user/getUserInfo' },
-  response: undefined }
-[2018-05-05T19:59:26.133] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-[2018-05-05T20:02:57.680] [ERROR] cheese - TypeError: Cannot read property 'nick' of undefined
-    at Proxy.render (webpack:///./src/webapp/components/header/Header.vue?./node_modules/_vue-loader@15.0.9@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.0.9@vue-loader/lib??vue-loader-options:11:44)
-    at VueComponent.Vue._render (webpack:///./node_modules/_vue@2.5.16@vue/dist/vue.runtime.esm.js?:4040:22)
-    at renderComponentInner (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7521:25)
-    at renderComponent (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7491:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7407:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at cachedWrite (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at renderStringNode$1 (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7602:5)
-    at RenderContext.renderNode (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:7405:5)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2428:14)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2432:16)
-    at RenderContext.next (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2441:12)
-    at RenderContext.cachedWrite [as write] (/Users/zhangyuan/Desktop/work/gitRepertory/yd-ssr-back/node_modules/_vue-server-renderer@2.5.16@vue-server-renderer/build.js:2287:9)
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:14:58.201] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:15:07.459] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:16:47.581] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:18:35.365] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:48:30)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:19:16.132] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:25:24.152] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:25:26.031] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:28:55.726] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:34:13.097] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:19:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:35:24.236] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:36:35.892] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:49:27)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:39:10.188] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:48:44)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:43:23.084] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
+
+Resolution path: sessions
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:47:22.899] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
+
+Resolution path: sessions
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:145:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:48:51.554] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
+
+Resolution path: sessions
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:140:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:50:02.790] [ERROR] cheese - AwilixResolutionError: Could not resolve 'sessions'.
+
+Resolution path: sessions
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at CourseService.getCourseList (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:47:44)
+    at VideoController.getData (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:140:54)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>
+[2018-05-06T11:50:18.942] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: courseService -> session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:26:25)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+[2018-05-06T12:02:51.763] [ERROR] cheese - TypeError: Cannot read property 'session' of undefined
+    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:29:25)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+[2018-05-06T12:34:50.668] [ERROR] cheese - ReferenceError: ctx is not defined
+    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:28:21)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+[2018-05-06T12:37:34.709] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: courseService -> session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at new CourseService (/home/dong/dong/yd-ssr-back/dist/services/CourseService.js:27:25)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:262:45)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at new VideoController (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:59:19)
+    at newClass (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/resolvers.js:291:20)
+    at Object.build (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:289:37)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:79:38)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+[2018-05-06T13:25:45.783] [ERROR] cheese - AwilixResolutionError: Could not resolve 'session'.
+
+Resolution path: session
+    at resolve (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:223:23)
+    at Object.get (/home/dong/dong/yd-ssr-back/node_modules/awilix/lib/container.js:63:32)
+    at ExamService.getScoreList (/home/dong/dong/yd-ssr-back/dist/services/ExamService.js:33:27)
+    at VideoController.index (/home/dong/dong/yd-ssr-back/dist/controllers/VideoController.js:91:47)
+    at memberInvoker (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/invokers.js:80:45)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at /home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:34:12
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:21:19)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/middlewares/errorHandler.js:10:23)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at scopePerRequestMiddleware (/home/dong/dong/yd-ssr-back/node_modules/awilix-koa/lib/scope-per-request.js:13:16)
+    at dispatch (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:42:32)
+    at next (/home/dong/dong/yd-ssr-back/node_modules/koa-compose/index.js:43:18)
+    at app.use (/home/dong/dong/yd-ssr-back/dist/app.js:83:11)
+    at <anonymous>

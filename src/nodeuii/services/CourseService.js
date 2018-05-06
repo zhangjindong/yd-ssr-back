@@ -8,6 +8,11 @@ import safeRequest from '../libs/safeRequest';
 export
 default class CourseService {
     constructor(ctx) {
+        console.log("=-=-=-=-=-s");
+        
+        console.dir(arguments);
+        console.log("=-=-=-=-=-s");
+        
         this.ctx = ctx;
     }
     handleAliber(digital) {
@@ -29,15 +34,19 @@ default class CourseService {
         console.log('课程处理结果', result);
         return result;
     }
-    getCourseList(ckey) {
+    getCourseList(ctx,ckey) {
+        console.log("session - ", ctx);
         const result = this.handleAliber(ckey);
+        
         const data = {
-            uid: this.ctx.session.userInfo.uid,
+            uid: ctx.session.userInfo.uid,
             class_id: 2, //班级ID，保留，默认填1或2即可
             unit_id: result['unitid'], //当前学习阶段ID，第一周对应1，第二周对应2，以此类推
             type_id: result['typeid'] //课程类型，0:线上视频，1:线下视频
         };
-        const safeRequestIns = new safeRequest(this.ctx, config.getUnitCourseList, data);
+        console.log(data);
+        
+        const safeRequestIns = new safeRequest(ctx, config.getUnitCourseList, data);
 
         return safeRequestIns.request();
     }
